@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42BF62A2D9E752209FEF20AB /* Pods_WirelessDataTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65A2E2B70FCE159D61C1DE8 /* Pods_WirelessDataTransfer.framework */; };
+		D86CCEC926E4BB3700C693CA /* KeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CCEC726E4BB3700C693CA /* KeyedDecodingContainer.swift */; };
+		D86CCECA26E4BB3700C693CA /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CCEC626E4BB3700C693CA /* DocumentType.swift */; };
+		D86CCECB26E4BB3700C693CA /* PersonalDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CCEC526E4BB3700C693CA /* PersonalDocument.swift */; };
+		D86CCECC26E4BB3700C693CA /* PersonalDocumentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CCEC826E4BB3700C693CA /* PersonalDocumentStatus.swift */; };
+		D86CCECE26E4BB6000C693CA /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86CCECD26E4BB6000C693CA /* Document.swift */; };
 		D88E12E626E0642600B3AA34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E12E526E0642600B3AA34 /* AppDelegate.swift */; };
 		D88E12E826E0642600B3AA34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E12E726E0642600B3AA34 /* SceneDelegate.swift */; };
 		D88E12EA26E0642600B3AA34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E12E926E0642600B3AA34 /* ViewController.swift */; };
 		D88E12ED26E0642600B3AA34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88E12EB26E0642600B3AA34 /* Main.storyboard */; };
 		D88E12EF26E0642700B3AA34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88E12EE26E0642700B3AA34 /* Assets.xcassets */; };
 		D88E12F226E0642700B3AA34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88E12F026E0642700B3AA34 /* LaunchScreen.storyboard */; };
+		D88E12FC26E065D500B3AA34 /* HttpAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E12FB26E065D500B3AA34 /* HttpAPI.swift */; };
+		D88E12FE26E06AD900B3AA34 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E12FD26E06AD900B3AA34 /* Preferences.swift */; };
+		D88E130126E06CE700B3AA34 /* RegisterDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E130026E06CE700B3AA34 /* RegisterDevice.swift */; };
+		D88E131226E4B67A00B3AA34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E131126E4B67A00B3AA34 /* Extensions.swift */; };
+		D8D2A47726EF4F6000ED44EE /* SendFileToDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2A47626EF4F6000ED44EE /* SendFileToDevice.swift */; };
+		D8F1ADC926F0DAEE00CFDB99 /* AddAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F1ADC826F0DAEE00CFDB99 /* AddAlertDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05A48190743CFB3D64E6B570 /* Pods-WirelessDataTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessDataTransfer.debug.xcconfig"; path = "Target Support Files/Pods-WirelessDataTransfer/Pods-WirelessDataTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		C31738FC3B27559FB3FF283A /* Pods-WirelessDataTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessDataTransfer.release.xcconfig"; path = "Target Support Files/Pods-WirelessDataTransfer/Pods-WirelessDataTransfer.release.xcconfig"; sourceTree = "<group>"; };
+		D65A2E2B70FCE159D61C1DE8 /* Pods_WirelessDataTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirelessDataTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86CCEC526E4BB3700C693CA /* PersonalDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDocument.swift; sourceTree = "<group>"; };
+		D86CCEC626E4BB3700C693CA /* DocumentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentType.swift; sourceTree = "<group>"; };
+		D86CCEC726E4BB3700C693CA /* KeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		D86CCEC826E4BB3700C693CA /* PersonalDocumentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDocumentStatus.swift; sourceTree = "<group>"; };
+		D86CCECD26E4BB6000C693CA /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		D88E12E226E0642600B3AA34 /* WirelessDataTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirelessDataTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88E12E526E0642600B3AA34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88E12E726E0642600B3AA34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,12 @@
 		D88E12EE26E0642700B3AA34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D88E12F126E0642700B3AA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88E12F326E0642700B3AA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88E12FB26E065D500B3AA34 /* HttpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpAPI.swift; sourceTree = "<group>"; };
+		D88E12FD26E06AD900B3AA34 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		D88E130026E06CE700B3AA34 /* RegisterDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDevice.swift; sourceTree = "<group>"; };
+		D88E131126E4B67A00B3AA34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D8D2A47626EF4F6000ED44EE /* SendFileToDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFileToDevice.swift; sourceTree = "<group>"; };
+		D8F1ADC826F0DAEE00CFDB99 /* AddAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BF62A2D9E752209FEF20AB /* Pods_WirelessDataTransfer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35A117155882C5CCDCE2DC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A48190743CFB3D64E6B570 /* Pods-WirelessDataTransfer.debug.xcconfig */,
+				C31738FC3B27559FB3FF283A /* Pods-WirelessDataTransfer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		377F66EFC8738A568A0254F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65A2E2B70FCE159D61C1DE8 /* Pods_WirelessDataTransfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D86CCEC226E4BB2600C693CA /* document */ = {
+			isa = PBXGroup;
+			children = (
+				D86CCECD26E4BB6000C693CA /* Document.swift */,
+				D86CCEC626E4BB3700C693CA /* DocumentType.swift */,
+				D86CCEC726E4BB3700C693CA /* KeyedDecodingContainer.swift */,
+				D86CCEC526E4BB3700C693CA /* PersonalDocument.swift */,
+				D86CCEC826E4BB3700C693CA /* PersonalDocumentStatus.swift */,
+			);
+			path = document;
+			sourceTree = "<group>";
+		};
 		D88E12D926E0642600B3AA34 = {
 			isa = PBXGroup;
 			children = (
 				D88E12E426E0642600B3AA34 /* WirelessDataTransfer */,
 				D88E12E326E0642600B3AA34 /* Products */,
+				35A117155882C5CCDCE2DC2C /* Pods */,
+				377F66EFC8738A568A0254F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +114,8 @@
 		D88E12E426E0642600B3AA34 /* WirelessDataTransfer */ = {
 			isa = PBXGroup;
 			children = (
+				D88E12FF26E06CAC00B3AA34 /* StoredProcedures */,
+				D88E12F926E0658C00B3AA34 /* Processes */,
 				D88E12E526E0642600B3AA34 /* AppDelegate.swift */,
 				D88E12E726E0642600B3AA34 /* SceneDelegate.swift */,
 				D88E12E926E0642600B3AA34 /* ViewController.swift */,
@@ -63,8 +123,29 @@
 				D88E12EE26E0642700B3AA34 /* Assets.xcassets */,
 				D88E12F026E0642700B3AA34 /* LaunchScreen.storyboard */,
 				D88E12F326E0642700B3AA34 /* Info.plist */,
+				D88E12FD26E06AD900B3AA34 /* Preferences.swift */,
 			);
 			path = WirelessDataTransfer;
+			sourceTree = "<group>";
+		};
+		D88E12F926E0658C00B3AA34 /* Processes */ = {
+			isa = PBXGroup;
+			children = (
+				D86CCEC226E4BB2600C693CA /* document */,
+				D88E12FB26E065D500B3AA34 /* HttpAPI.swift */,
+				D88E131126E4B67A00B3AA34 /* Extensions.swift */,
+				D8F1ADC826F0DAEE00CFDB99 /* AddAlertDialog.swift */,
+			);
+			path = Processes;
+			sourceTree = "<group>";
+		};
+		D88E12FF26E06CAC00B3AA34 /* StoredProcedures */ = {
+			isa = PBXGroup;
+			children = (
+				D88E130026E06CE700B3AA34 /* RegisterDevice.swift */,
+				D8D2A47626EF4F6000ED44EE /* SendFileToDevice.swift */,
+			);
+			path = StoredProcedures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D88E12F626E0642700B3AA34 /* Build configuration list for PBXNativeTarget "WirelessDataTransfer" */;
 			buildPhases = (
+				470FF4265028EE04B1F4BDB5 /* [CP] Check Pods Manifest.lock */,
 				D88E12DE26E0642600B3AA34 /* Sources */,
 				D88E12DF26E0642600B3AA34 /* Frameworks */,
 				D88E12E026E0642600B3AA34 /* Resources */,
@@ -132,14 +214,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		470FF4265028EE04B1F4BDB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WirelessDataTransfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D88E12DE26E0642600B3AA34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86CCEC926E4BB3700C693CA /* KeyedDecodingContainer.swift in Sources */,
+				D86CCECA26E4BB3700C693CA /* DocumentType.swift in Sources */,
+				D88E130126E06CE700B3AA34 /* RegisterDevice.swift in Sources */,
 				D88E12EA26E0642600B3AA34 /* ViewController.swift in Sources */,
 				D88E12E626E0642600B3AA34 /* AppDelegate.swift in Sources */,
+				D86CCECC26E4BB3700C693CA /* PersonalDocumentStatus.swift in Sources */,
+				D8F1ADC926F0DAEE00CFDB99 /* AddAlertDialog.swift in Sources */,
+				D88E12FE26E06AD900B3AA34 /* Preferences.swift in Sources */,
+				D88E12FC26E065D500B3AA34 /* HttpAPI.swift in Sources */,
+				D86CCECE26E4BB6000C693CA /* Document.swift in Sources */,
 				D88E12E826E0642600B3AA34 /* SceneDelegate.swift in Sources */,
+				D8D2A47726EF4F6000ED44EE /* SendFileToDevice.swift in Sources */,
+				D86CCECB26E4BB3700C693CA /* PersonalDocument.swift in Sources */,
+				D88E131226E4B67A00B3AA34 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +401,7 @@
 		};
 		D88E12F726E0642700B3AA34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A48190743CFB3D64E6B570 /* Pods-WirelessDataTransfer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +421,7 @@
 		};
 		D88E12F826E0642700B3AA34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31738FC3B27559FB3FF283A /* Pods-WirelessDataTransfer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
